@@ -11,7 +11,7 @@ const parent = React.createElement(
         React.createElement('div', { className: 'header' }, [
             React.createElement('h1', {}, 'Saad Naseem'),
             React.createElement('p', {}, 'Front-End Developer'),
-            React.createElement('p', {}, 'raosad786@gmail.com | (+92) 3023206548 ')
+            React.createElement('p', {}, 'raosad786@gmail.com | (+92) 3023206548')
         ]),
 
         // Education Section
@@ -36,14 +36,7 @@ const parent = React.createElement(
                     React.createElement('li', {}, 'Implemented responsive design principles')
                 ])
             ]),
-            React.createElement('div', { className: 'entry' }, [
-                React.createElement('h4', {}, 'Intern Developer - '),
-                React.createElement('p', {}, 'Summer 2021'),
-                React.createElement('ul', {}, [
-                    React.createElement('li', {}, 'Assisted in frontend development tasks'),
-                    React.createElement('li', {}, 'Participated in code reviews and team meetings')
-                ])
-            ])
+          
         ]),
 
         // Skills Section
