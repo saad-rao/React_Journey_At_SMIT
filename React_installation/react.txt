@@ -1,0 +1,7 @@
+
+install the react : npm create vite@latest
+
+npm installl: jitna bhe required modules hn wo install ho jayen ga 
+
+React ke installation ke thi vite ke zariya se 
+Component parha tha ka component kya hota ha aur kese render hota ha 
