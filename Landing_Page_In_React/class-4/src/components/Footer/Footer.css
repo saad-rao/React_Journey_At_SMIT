@@ -1,0 +1,181 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    color: #737373;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Footer Row */
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Footer Columns */
+.footer-col {
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.about-col {
+    width: 50%;
+}
+
+.footer-col {
+    width: 25%;
+}
+
+.copyright-col {
+    width: 66.67%;
+}
+
+.social-col {
+    width: 33.33%;
+}
+
+/* Headings */
+h6 {
+    font-size: 16px;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Text */
+.text-justify {
+    text-align: justify;
+}
+
+.text-justify i {
+    font-style: italic;
+    color: #666;
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #737373;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
+
+/* HR */
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/* Copyright */
+.copyright-text {
+    font-size: 14px;
+}
+
+.copyright-text a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    color: #007bff;
+}
+
+.copyright-text .heart-icon {
+    color: #ff4444;
+    vertical-align: middle;
+}
+
+/* Social Icons */
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons .facebook:hover {
+    background-color: #3b5998;
+}
+
+.social-icons .twitter:hover {
+    background-color: #1da1f2;
+}
+
+.social-icons .github:hover {
+    background-color: #333;
+}
+
+.social-icons .linkedin:hover {
+    background-color: #0077b5;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+    }
+    
+    .copyright-col {
+        width: 100%;
+    }
+    
+    .social-col {
+        width: 100%;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-col {
+        width: 100%;
+    }
+}

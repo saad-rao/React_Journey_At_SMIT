@@ -75,7 +75,7 @@ I'm always open to discussions, feedback, and collaboration. Let's connect! 🚀
 
 📌 **GitHub:** [Saad Rao](https://github.com/saad-rao)  
 📌 **LinkedIn:** [Saad Naseem](#linkedin.com/in/saad-naseem-99651a2b4/)  
-📌 **Twitter (X):**(#https://x.com/Saad_X_0_0)  
+📌 **Twitter (X):** [](#https://x.com/Saad_X_0_0)  
 
 ---
 

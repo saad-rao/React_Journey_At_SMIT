@@ -1,0 +1,22 @@
+.navbar-container {
+    /* background-color: cadetblue; */
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+    color: black;
+
+}
+
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+.nav-items li{
+    cursor: pointer;
+}
