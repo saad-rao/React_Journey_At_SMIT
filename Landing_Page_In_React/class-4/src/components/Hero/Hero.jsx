@@ -1,8 +1,9 @@
 import React from "react";
 import "./Hero.css";
-import adi from "../../assets/images/adi.jpg";
+// import adi from "../../assets/images/adi.jpg";  //for manual image import
 
 const Hero =(props) => {
+    // console.log("Props", props); 
 return (
 
 
@@ -10,12 +11,11 @@ return (
 
 <div className="hero-text">
     <h1>
-    Audi SUV Sedan
+    {props.heading}
     </h1>
 
-    <p>Introducing the all-new Audi Q6 e-tron, a premium mid-size all-electric SUV that boasts an EPA-estimated range of 321 miles
-        (RWD equipped with Ultra package)—allowing you to 
-        get where you want to go in state-of-the-art style. 
+    <p>
+        {props.description}
         </p>
 
 <button>Explore More!</button>
@@ -24,7 +24,7 @@ return (
 
 <div className="hero-image">
 
-<img src = {adi} alt="audi" />
+<img src = {props.image} alt="cars pics" />
 
 </div>
 
