@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { BsFileXFill } from "react-icons/bs";
 // import adi from "../../assets/images/adi.jpg";  //for manual image import
 
 const Hero =(props) => {
@@ -7,18 +8,18 @@ const Hero =(props) => {
 return (
 
 
-    <div className="hero-container">
+    <div className="hero-container" style={ {flexDirection:props.isDirectionRow ? 'row': 'row-reverse'}} >
 
 <div className="hero-text">
-    <h1>
+    <h1 className="hero-heading">
     {props.heading}
     </h1>
 
-    <p>
+    <p className="hero-description">
         {props.description}
         </p>
 
-<button>Explore More!</button>
+<button className="hero-button">Buy Now!</button>
 </div>
 
 
