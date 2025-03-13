@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = () =>{
 return(
     <div className="navbar-container">
-        <h1>Navbar</h1>
+        <h1>CarZone</h1>
 
         <ul className="nav-items">
             <li>Home</li>

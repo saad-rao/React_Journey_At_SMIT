@@ -13,25 +13,25 @@ const Footer = () => {
           <div className="footer-col about-col">
             <h6>About</h6>
             <p className="text-justify">
-              ShopEasy <i>SHOPING WANTS TO BE SIMPLE </i> is an initiative to help the upcoming E-commerce with the code. ShopEasy focuses on providing the most efficient products or stuff. We will help customers build up concepts in different products that include T-Shirts, Mens Cotton Jacket, laptop, Mens Casual Slim Fit, Rain Jacket Women, Opna Women's Short Sleeve Moisture, and DANVOUY Womens T Shirt Casual Cotton Short.
+            Welcome to CarZone, your ultimate destination for premium cars, expert reviews, and the latest automotive trends. We are passionate about connecting car enthusiasts with their dream rides. Whether you're looking for luxury, sports, or electric vehicles, we provide top-notch information to help you make the right choice.
             </p>
           </div>
 
           <div className="footer-col">
             <h6>Categories</h6>
             <ul className="footer-links">
-              <li><a href="#">Men’s Fashion</a></li>
-              <li><a href="#">Women’s Fashion</a></li>
-              <li><a href="#">Electronics</a></li>
-              <li><a href="#">Beauty & Personal Care</a></li>
-              <li><a href="#">Home & Living</a></li>
+              <li><a href="#">Sports car</a></li>
+              <li><a href="#">SUVs & crossover</a></li>
+              <li><a href="#">Electric Vehicles</a></li>
+              <li><a href="#">Sedan and Hatchbacks</a></li>
+              <li><a href="#">Classic and vintage cars</a></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h6>Quick Links</h6>
             <ul className="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="">About Us</a></li>
               <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
               <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
               <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
