@@ -21,30 +21,41 @@ const App = () => {
   
   return (
     <>
-  <div className="flex justify-center mt-10">
-
-<button
-  className="px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-blue-700 cursor-pointer"
-  onClick={fetchData}
->
-  Fetch Data !
-</button>
+ <div className="flex justify-center mt-12">
+  <button
+    className="px-8 py-3 text-white bg-gradient-to-r from-indigo-600 to-blue-600 rounded-full shadow-lg transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:from-indigo-700 hover:to-blue-700 font-semibold tracking-wide"
+    onClick={fetchData}
+  >
+    Fetch Data !
+  </button>
 </div>
-      {loader ? (
-        <div className="w-8 h-8 border-4 border-t-4 border-gray-200 border-t-blue-500 rounded-full animate-spin a"></div>
-      ) : (
-        <div className="flex justify-center flex-wrap gap-3 my-8">
-          {data.map((item, index) => {
-            return (
-              <div key={index} className="border-2 w-96 p-6 ">
-                <img className="w-full h-96 object-cover bg-slate-300" src={item.image} />
-                <p className="font-bold text-2xl text-center mt-4 py-2">{item.title}</p>
-                <p className="text-center capitalize">{item.description}</p>
-              </div>
-            );
-          })}
+{loader ? (
+  <div className="flex justify-center items-center h-64">
+    <div className="w-12 h-12 border-4 border-t-4 border-gray-300 border-t-indigo-600 rounded-full animate-spin"></div>
+  </div>
+) : (
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto px-4 py-12">
+    {data.map((item, index) => {
+      return (
+        <div
+          key={index}
+          className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
+        >
+          <img
+            className="w-full h-64 object-contain p-4 bg-gray-50"
+            src={item.image}
+          />
+          <p className="text-xl font-semibold text-gray-800 text-center mt-4 px-4 line-clamp-2">
+            {item.title}
+          </p>
+          <p className="text-gray-600 text-sm text-center mt-2 px-4 pb-6 line-clamp-3">
+            {item.description}
+          </p>
         </div>
-      )}
+      );
+    })}
+  </div>
+)}
     </>
   )
 }
