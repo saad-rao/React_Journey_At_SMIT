@@ -18,7 +18,7 @@
 ---
 
 ## 📸 **Project Preview**
-### 🎯 **Landing Page Screenshot**
+### 🎯 **Landing Page Screenshot**x
 > *(Replace this with actual screenshots of your project)*
 >
 ![Landing Page](https://via.placeholder.com/800x400.png?text=Landing+Page+Preview)
